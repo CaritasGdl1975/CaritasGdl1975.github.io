@@ -1,6 +1,6 @@
 @import url(style.css);
 
-body{
+body {
   overflow-x: hidden;
 }
 
@@ -24,12 +24,12 @@ body{
   width: 300px;
 }
 
-.start--focos{
+.start--focos {
   display: flex;
   justify-content: space-between;
 }
 
-.focoinvis{
+.focoinvis {
   opacity: 0;
 }
 
@@ -131,7 +131,6 @@ body{
   overflow: hidden;
   align-items: center;
   animation: 10s ease-in-out running infinite floatanimation;
-
 }
 
 .palabras--list {
@@ -179,7 +178,7 @@ body{
   background-image: url(../images/sopadeletras/sdlfoco.svg);
   height: 150px;
   animation: 3s ease-in-out running infinite floatanimation;
-  border-top: 15%;
+  margin-top: 2%;
   z-index: -1;
 }
 
@@ -248,11 +247,11 @@ body{
     height: 90px;
   }
 
-  .sdlsideimg--book{
+  .sdlsideimg--book {
     height: 80px;
   }
 
-  .sdlsideimg--hands{
+  .sdlsideimg--hands {
     height: 95px;
   }
 
@@ -388,11 +387,11 @@ body{
     height: 70px;
   }
 
-  .sdlsideimg--book{
+  .sdlsideimg--book {
     transform: translateX(-100%);
   }
 
-  .sdlsideimg--hands{
+  .sdlsideimg--hands {
     height: 95px;
-  }  
+  }
 }
