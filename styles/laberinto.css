@@ -103,6 +103,12 @@ p {
     scale: 0.7;
     right: -5%;
   }
+
+  .eraser {
+    bottom: 10%;
+    right: 0;
+    scale: 0.3;
+  }
 }
 
 @media (max-width: 800px) {
